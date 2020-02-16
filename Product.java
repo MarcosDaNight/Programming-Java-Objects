@@ -17,6 +17,7 @@ public class Product {
 		this.quantity -= quantity;
 	}
 	
+	// if an error occurs, it will be due to String.Format (), anything can remove or even put just as variables.
 	public String toString() {
 		return name
 			+", $ "
