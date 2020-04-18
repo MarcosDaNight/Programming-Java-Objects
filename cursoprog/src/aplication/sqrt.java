@@ -22,15 +22,15 @@ public class sqrt {
 		System.out.println("Enter the radius number: ");
 		double radius = sc.nextDouble();
 		
-		OperationsForSqrt ofs = new OperationsForSqrt();
+	
 		
-		double circumference = ofs.circumference(radius);
-		double volume = ofs.volume(radius);
-		double PI = ofs.PI();
+		double circumference = OperationsForSqrt.circumference(radius);
+		double volume = OperationsForSqrt.volume(radius);
+		
 		
 		System.out.printf("Circumference: %.2f%n", circumference);
 		System.out.printf("Volume: %.2f%n", volume);
-		System.out.printf("PI value: %.2f%n", PI);
+		System.out.printf("PI value: %.2f%n", OperationsForSqrt.PI);
 		
 		sc.close();
 	}
