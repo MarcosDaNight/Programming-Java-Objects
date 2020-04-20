@@ -13,11 +13,11 @@ public class Estoque_POO {
 		System.out.println("Enter the product data:");
 		System.out.print("Name: ");
 		
-		product.name = sc.nextLine();
+//		product.name = sc.nextLine();
 		System.out.print("Price: ");
-		product.price = sc.nextDouble();
+//		product.price = sc.nextDouble();
 		System.out.print("Quantity: ");
-		product.quantity = sc.nextInt();
+//		product.quantity = sc.nextInt();
 		
 		System.out.println();
 		System.out.println("Product data:" + product);
