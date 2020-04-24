@@ -62,7 +62,7 @@ public class Account {
 		+ number
 		+", Holder: "
 		+ holder
-		+", Balance: $"
+		+", Balance: $ "
 		+ String.format("%.2f", balance);
 	}
 	

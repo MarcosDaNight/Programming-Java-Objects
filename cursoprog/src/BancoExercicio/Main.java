@@ -40,12 +40,10 @@ public class Main {
 			
 		}
 		
-	
-		
 		System.out.println();
 		
 		System.out.println("Account data:");
-		System.out.println(account);
+		System.out.println(account);//Mostrando dados da conta
 		
 		/**
 		 * Deposito
@@ -56,7 +54,8 @@ public class Main {
 		double depositValue = sc.nextDouble();
 		account.deposit(depositValue);
 		System.out.println("Update account data: ");
-		System.out.println(account);
+		System.out.println(account);//Mostrando dados da conta
+		
 		
 		/**
 		 * Saque
@@ -67,8 +66,9 @@ public class Main {
 		double withdrawValeu = sc.nextDouble();
 		account.withdrawn(withdrawValeu);
 		System.out.println("Update account data: ");
-		System.out.println(account);
+		System.out.println(account);//Mostrando dados da conta
 		
+		sc.close();
 		
 	}
 
