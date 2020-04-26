@@ -15,7 +15,7 @@ public class Pensionato {
 		int n = sc.nextInt();
 		
 		
-		for (int i=0; i < n; i++) {
+		for (int i=1; i <= n; i++) {
 			System.out.println();
 			System.out.println("Rent #" + i + ":");
 			System.out.println("Name: ");

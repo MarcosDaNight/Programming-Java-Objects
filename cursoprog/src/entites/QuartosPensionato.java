@@ -5,7 +5,9 @@ public class QuartosPensionato {
 	private String email;
 	
 	public QuartosPensionato(String name, String email) {
-	
+		/**
+		 * finalizado
+		 */
 		this.name = name;
 		this.email = email;
 	}
