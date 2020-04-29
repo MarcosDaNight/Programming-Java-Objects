@@ -16,6 +16,7 @@ public class forEach {
 		}
 		System.out.println("-----------------");
 		int sum = 0;
+		
 		for (String obj : vect) {//  : is similar an in of python
 			System.out.println(obj);
 			sum += 1;
