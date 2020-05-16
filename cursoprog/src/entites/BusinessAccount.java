@@ -27,6 +27,10 @@ public class BusinessAccount extends AccountHeranca{
 		}
 
 	}
-
-	
+	//Super method is useful for reuse code targeted to the same
+	@Override
+	public void withdraw(double amount) {
+		super.withdraw(amount);
+		balance -= 2.0;
+	}
 }

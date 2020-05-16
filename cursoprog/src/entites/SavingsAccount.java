@@ -21,4 +21,10 @@ public class SavingsAccount extends AccountHeranca{
 		balance += balance * interestRate;
 	}
 	
+	//The same method using in the account, this is possible per cause of the overlap
+	@Override
+	public void withdraw(double amount) {
+		balance -= amount;
+	}
+	
 }
