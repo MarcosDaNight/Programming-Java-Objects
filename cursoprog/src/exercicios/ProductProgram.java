@@ -21,11 +21,16 @@ public class ProductProgram {
 		System.out.print("Enter the number of products: ");
 		int num = sc.nextInt();
 		
-		for (int i = 1; i < num; i++) {
+		for (int i = 1; i <= num; i++) {
 			System.out.println("Product #" + i + " data:");
 			System.out.print("Common, used or imported (c/u/i)? ");
 			char ch = sc.next().charAt(0);
+			if (ch != 'c' || ch != 'u' || ch != 'i') {
+				System.out.print("This type is not avalible, please, use only the following characters (c/u/i): ");
+				ch = sc.next().charAt(0);
+			}
 			System.out.print("Name:");
+			sc.nextLine();
 			String name = sc.nextLine();
 			System.out.print("Price:");
 			double price = sc.nextDouble();
@@ -42,6 +47,7 @@ public class ProductProgram {
 				double customsFee = sc.nextDouble();
 				list.add(new ImportedProduct(name, price, customsFee));
 			}
+			
 			
 		}
 		
